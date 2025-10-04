@@ -1,0 +1,27 @@
+Below the dashed line, for each group member, clearly specify which sections of 
+the code are predominantly your own original contributions, as described in
+the TP document: 
+https://www.cs.cmu.edu/~112/notes/term-project-and-hack112.html#personal-contributions
+
+Example: 
+
+eileenj 
+ - wrote/designed home screen, settings, and gameover screen
+ - ...
+mdtaylor
+ - Designed and coded the main game screen
+ - ...
+------------------------------------>
+eileenj 
+- wrote/designed home screen, settings, and gameover screen
+ - ...
+ galiaj
+-  wrote ball movement physics, drew tunnel, rotation mechanics, and made sure that character stays on platform
+- added random black space generation where ball can fall through
+- implemented tunnel appearing to move towards screen
+- added procedural generation
+gboone2
+- added a score that goes up with time, added more color selections for the ball including a customizable color
+- redesgined the gameover, settings, and start screen to be more poilished and interesteing
+- added a pause feature with a screen that can acess home and settings, and added a pause button and score label to the gamescreen
+- designed the graphic of the player(the alien)

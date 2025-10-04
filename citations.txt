@@ -1,0 +1,43 @@
+Below the dashed line, include easily understandable and verifiable 
+citations to all the major sources you used for your project, as described
+in the TP document: 
+https://www.cs.cmu.edu/~112/notes/term-project-and-hack112.html#tp-policies
+
+In addition, your code must also include citations directly in the code that 
+make it clear where you use code that is partly or entirely not of your 
+original design, and what the source is for that code.
+------------------------------------>
+Used ChatGPT to help with moveForward and generateRings functions, particularly getting the trapezoid coordinates and opacity
+Used ChatGPT to help with opacity and coloring in draw() in Tunnel class
+Used ChatGPT to help to create level/point/speed counter, had help incorporating randomness
+Used CS Academy to help the customizable color feature 
+
+eileenj:
+Used chatgpt to create these def or lines
+- def gameScreen(app)
+- def startMusic()
+
+ -  app.tunnel.moveForward(app.forwardSpeed)
+
+    makeBottomHorizontal(app)
+
+    if app.score >= app.nextLevelScore:
+        app.level += 1
+        app.nextLevelScore += 250
+        app.forwardSpeed += 1
+        app.tunnel.incDifficulty(app.level)
+
+-   app.level = 1
+    app.nextLevelScore = 250
+    app.forwardSpeed = 3
+
+    app.tunnel = Tunnel(numSides=6, segments=10, spacing=20,
+                        radius=400, depth=600,
+                        cx=app.width/2, cy=app.height/2)
+    app.tunnel.incDifficulty(app.level)
+-     def incDifficulty(self, level):
+        self.chance = min(
+            1.0,
+            self.chance + self.chanceIncrement * (level - 1)
+        )
+    
