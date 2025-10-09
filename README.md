@@ -4,7 +4,7 @@ A fast paced, procedurally generated tunnel runner game built in Python featurin
 Overview: 
 - RUN112 is a 2.5D tunnel runner game where players navigate through a procedurally generated tunnel, avoiding the holes and making sure the player stays on the platforms.
 
-Features: 
+Key Features: 
 - Procedural Generation: Infinite tunnel with dynamically generated platforms and randomly spawning obstacles
 - 3D Depth Perception: Used mathematical transformations to create realistic depth and scaling effects
 - Custom Physics Engine: 
